@@ -83,6 +83,7 @@ div ul li a {
     transform: scale(1.1);
 }
 
+
 .header {
     background: radial-gradient(rgb(0, 97, 255),rgb(96, 239, 255));
 }
@@ -121,7 +122,7 @@ div ul li a {
     transform: translateY(-15px);
  }
 
- .products h1 {
+ .products h2 {
     margin-bottom: 30px;
     text-align: center;
  }
@@ -135,6 +136,7 @@ div ul li a {
     justify-content: center;
     align-items: center;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -144,12 +146,210 @@ div ul li a {
     color:rgb(37, 37, 37);
 }
 
-.prix {
+.price {
     color:rgb(85, 85, 85);
+}
+
+.latest-carts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.latest-catregorie-cart {
+    width: 200px;
+    margin: 40px 20px;
+}
+
+.latest-products h2 {
+    margin-bottom: 10px;
 }
 
 
 
 
+.latest-catregorie-cart img {
+    width: 200px;
+}
+
+.latest-catregorie-cart:hover {
+    transform: translateY(-15px);
+}
+
+.latest-products {
+    margin: 70px 0;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background: radial-gradient(rgb(0, 97, 255),rgb(96, 239, 255));
+    margin: 10px 20px;
+}
+
+.offer-container img {
+    width: 400px;
+    padding: 20px 0;
+}
+
+.offer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0;
+
+}
+
+.offer-info .btn {
+    width: 140px;
+    text-align: center;
+}
+
+.offer-info h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-top: 15px;
+}
 
 
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 15px;
+    box-shadow: 0px 0px 20px 7px rgba(221, 209, 209, 0.9);
+    padding: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.feed:hover {
+    transform: translateY(-15px);
+}
+
+.feed img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.feed q {
+    color: gray;
+    text-align: center;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.brands {
+    margin-top: 80px;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img {
+    cursor: pointer;
+    filter: grayscale(100%);
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+.brand img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+} 
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 70px;
+    padding: 50px 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.dowanload, .purpose, .links, .follow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dowanload h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.dowanload p {
+    font-size: 11px;
+    font-weight: 500;
+    margin: 15px 0;
+    color: grey;
+}
+.dowanload img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.purpose h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 2px 2px grey;
+}
+.purpose p {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.links h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: -20px;
+}
+.links ul, .follow ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    color: gray;
+}
+ .follow h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: -20px;
+ }
+
+.copy {
+    background-color: black;
+    color: white;
+}
+hr {
+    color: gray;
+    width: 80%;
+    margin: auto;
+}
+.copy p{
+    text-align: center;
+    margin-top: 15px;
+    color: gray;
+}
